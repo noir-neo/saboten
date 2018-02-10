@@ -83,11 +83,6 @@ namespace ModestTree
             return enumerable.Take(amount + 1).Count() <= amount;
         }
 
-        public static bool IsEmpty<T>(this IEnumerable<T> enumerable)
-        {
-            return !enumerable.Any();
-        }
-
         public static IEnumerable<T> GetDuplicates<T>(this IEnumerable<T> list)
         {
             return list.GroupBy(x => x).Where(x => x.Skip(1).Any()).Select(x => x.Key);
