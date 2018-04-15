@@ -17,6 +17,6 @@ public class PlayerMover : MonoBehaviour
 
     void Move(Vector2 delta)
     {
-        _rb.MovePosition(_rb.position + (delta * _speed * Time.deltaTime).X0Y());
+        _rb.MovePosition(_rb.position + (delta * _speed).X0Y());
     }
 }
