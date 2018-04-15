@@ -1204,7 +1204,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _core: {fileID: 114343900885510090}
   _rb: {fileID: 54388049273843442}
-  _speed: 0.5
+  _speed: 0.01
 --- !u!136 &136687398607061844
 CapsuleCollider:
   m_ObjectHideFlags: 1
